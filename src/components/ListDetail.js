@@ -6,7 +6,7 @@ const ListDetail = ({detail}) => {
    
     return (
       <View style={styles.container}>
-          <Text style={styles.company}>{detail.strMeal}</Text>
+          <Text style={styles.text}>{detail.strMeal}</Text>
         
         <Image
           resizeMode="contain"
